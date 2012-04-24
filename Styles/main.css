@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+}
+#game{
+	background-color: rgb(30,30,30);
+	height : 480px;
+	left : 0;
+	position: absolute;
+	top : 0;
+	width : 320px;
+}
+#game .screen{
+	display: none;
+	height : 100%;
+	position: absolute;
+	width : 100%;
+	z-index : 10;
+}
+#game .screen.active{
+	display: block;
+}
